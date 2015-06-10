@@ -3,7 +3,7 @@
 Getting Started on Full .NET (Console, WinForms, WPF, etc.)
 ==========================================
 
-In this walkthough, you will build a console application that performs basic data access using Entity Framework.
+In this walkthrough, you will build a console application that performs basic data access using Entity Framework.
 
 In this article:
 	- `Ensure NuGet 2.8.5 or later`_
@@ -12,11 +12,11 @@ In this article:
 	- `Create your model`_
 	- `Create your database`_
 	- `Use your model`_
-	
+
 `View this article's samples on GitHub <https://github.com/aspnet/EntityFramework.Docs/tree/master/docs/getting-started/full-dotnet/sample>`_.
 
 .. note::
-    This walkthough uses EF 7.0.0-beta4 which is the latest pre-release available on NuGet.org.
+    This walkthrough uses EF 7.0.0-beta4 which is the latest pre-release available on NuGet.org.
 
     You can find nightly builds of the EF7 code base hosted on https://www.myget.org/F/aspnetvnext/api/v2/ but the code base is rapidly changing and we do not maintain up-to-date documentation for getting started.
 
@@ -35,11 +35,11 @@ Installing EF7 requires NuGet 2.8.5 (or higher). Make sure you restart Visual St
 Create a new project
 --------------------
 
-* Open Visual Studio (this walkthough uses 2015 but you can use any version from 2010 onwards)
+* Open Visual Studio (this walkthrough uses 2015 but you can use any version from 2010 onwards)
 * :menuselection:`File --> New --> Project...`
 * From the left menu select :menuselection:`Templates --> Visual C# --> Windows`
 * Select the **Console Application** project template
-* Ensure you are targetting .NET 4.5.1 or later
+* Ensure you are targeting .NET 4.5.1 or later
 * Give the project a name and click **OK**
 
 Install Entity Framework
@@ -59,7 +59,7 @@ Later in this walkthrough we will also be using some Entity Framework commands t
 Create your model
 -----------------
 
-Now it's time to define a context and entity classes that make up your model. 
+Now it's time to define a context and entity classes that make up your model.
 
 * :menuselection:`Project --> Add Class...`
 * Enter *Model.cs* as the name and click **OK**
